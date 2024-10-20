@@ -1,0 +1,20 @@
+{
+  "terms_and_conditions": {
+    "data_use": {
+      "title": "Utilisation des données personnelles",
+      "content": "Les informations recueillies dans ce formulaire sont indispensables pour assurer la bonne réalisation de l'intervention demandée. Elles seront exclusivement utilisées dans le cadre de la gestion et du suivi de votre demande. Nous nous engageons à garantir la confidentialité de vos données et à ne pas les transmettre à des tiers, sauf si cela est nécessaire pour respecter des obligations légales ou pour assurer le bon déroulement de l'intervention."
+    },
+    "data_protection": {
+      "title": "Protection de vos données",
+      "content": "Conformément à la loi belge du 30 juillet 2018 relative à la protection des personnes physiques à l’égard des traitements de données à caractère personnel et au Règlement Général sur la Protection des Données (RGPD), vous disposez des droits suivants concernant vos données personnelles : droit d'accès, de rectification, d'effacement, de limitation du traitement, d'opposition et de portabilité. Vous pouvez exercer ces droits à tout moment en contactant notre service client via les coordonnées fournies sur notre site internet."
+    },
+    "data_retention": {
+      "title": "Conservation des données",
+      "content": "Vos données personnelles seront conservées pendant toute la durée nécessaire à l'exécution de l'intervention, ainsi que pour répondre à d'éventuelles obligations légales, dans les limites des délais prévus par la législation belge en vigueur. Une fois ces obligations remplies, vos données seront supprimées de manière sécurisée."
+    },
+    "consent": {
+      "title": "Consentement",
+      "content": "En soumettant ce formulaire, vous consentez expressément au traitement de vos données selon les modalités décrites ci-dessus. Pour plus d'informations sur la manière dont nous traitons vos données ou pour consulter notre politique de confidentialité, nous vous invitons à visiter notre site ou à nous contacter directement."
+    }
+  }
+}

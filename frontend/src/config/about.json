@@ -1,0 +1,17 @@
+[
+  {
+    "value": 10,
+    "suffix": "+",
+    "description": "Années d'expériences"
+  },
+  {
+    "value": 500,
+    "suffix": "+",
+    "description": "Robots entretenus"
+  },
+  {
+    "value": 100,
+    "suffix": "%",
+    "description": "Satisfaction client"
+  }
+]

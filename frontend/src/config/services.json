@@ -1,0 +1,153 @@
+[
+  {
+    "name": "Entretien de robot",
+    "description": "Entretien de votre robot Husqvarna ou Gardena",
+    "image": "/images/entretien-robot.webp",
+    "basePrice": 99,
+    "formFields": [
+      {
+        "label": "Marque du robot",
+        "type": "select",
+        "options": ["Husqvarna", "Gardena"],
+        "isRequired": true
+      },
+      { "label": "Modèle", "type": "text", "isRequired": true },
+      {
+        "label": "Enlèvement dans un rayon de 50 km de Braine-le-Comte",
+        "price": 40,
+        "type": "checkbox_price",
+        "isRequired": false
+      },
+      {
+        "label": "Hivernage tout l'hiver dans un entrepôt chauffé",
+        "price": 30,
+        "type": "checkbox_price",
+        "isRequired": false
+      },
+      {
+        "label": "Redémarrage du robot à domicile au printemps",
+        "price": 35,
+        "type": "checkbox_price",
+        "isRequired": false
+      },
+      {
+        "label": "Lames carbure",
+        "price": 10,
+        "type": "checkbox_price",
+        "isRequired": false
+      },
+      {
+        "label": "Lames classiques",
+        "price": 7,
+        "type": "checkbox_price",
+        "isRequired": false
+      },
+      {
+        "label": "Dépose en magasin",
+        "price": 0,
+        "type": "checkbox_price",
+        "isRequired": false
+      },
+      {
+        "label": "Test et nettoyage de la station de charge et alimentation",
+        "price": 20,
+        "type": "checkbox_price",
+        "isRequired": false
+      },
+      {
+        "label": "Date souhaitée pour l'enlèvement",
+        "type": "date",
+        "isRequired": true,
+        "minFuturDateRange": 1
+      },
+      { "label": "Code du robot", "type": "text", "isRequired": true },
+      { "label": "Nom de famille", "type": "text", "isRequired": true },
+      { "label": "Prénom", "type": "text", "isRequired": true },
+      { "label": "Adresse", "type": "text", "isRequired": true },
+      { "label": "Adresse e-mail", "type": "email", "isRequired": true },
+      { "label": "Numéro de téléphone", "type": "tel", "isRequired": true },
+      { "label": "Remarques", "type": "textarea", "isRequired": false },
+      {
+        "label": "Accepter les conditions générales",
+        "type": "checkbox_term",
+        "isRequired": true
+      }
+    ]
+  },
+  {
+    "name": "Réparation de robot",
+    "description": "Réparation de votre robot Husqvarna ou Gardena",
+    "image": "/images/reparation-robot.jpg",
+    "formFields": [
+      {
+        "label": "Marque du robot",
+        "type": "select",
+        "options": ["Husqvarna", "Gardena"],
+        "isRequired": true
+      },
+      { "label": "Modèle", "type": "text", "isRequired": true },
+      { "label": "Problème à décrire", "type": "textarea", "isRequired": true },
+      {
+        "label": "Enlèvement et redémarrage à domicile dans un rayon de 50 km de Braine-le-Comte",
+        "price": 80,
+        "type": "checkbox_price",
+        "isRequired": false
+      },
+      {
+        "label": "Date souhaitée pour l'enlèvement",
+        "type": "date",
+        "isRequired": true,
+        "minFuturDateRange": 1
+      },
+      { "label": "Code du robot", "type": "text", "isRequired": true },
+      { "label": "Nom de famille", "type": "text", "isRequired": true },
+      { "label": "Prénom", "type": "text", "isRequired": true },
+      { "label": "Adresse", "type": "text", "isRequired": true },
+      { "label": "Adresse e-mail", "type": "email", "isRequired": true },
+      { "label": "Numéro de téléphone", "type": "tel", "isRequired": true },
+      {
+        "label": "Accepter les conditions générales",
+        "type": "checkbox_term",
+        "isRequired": true
+      }
+    ]
+  },
+  {
+    "name": "Problème d'installation",
+    "description": "Installation de votre robot Husqvarna ou Gardena",
+    "image": "/images/installation-robot.jpg",
+    "formFields": [
+      {
+        "label": "Marque du robot",
+        "type": "select",
+        "options": ["Husqvarna", "Gardena"],
+        "isRequired": true
+      },
+      { "label": "Modèle", "type": "text", "isRequired": true },
+      { "label": "Problème à décrire", "type": "textarea", "isRequired": true },
+      {
+        "label": "Déplacement dans un rayon de 50 km",
+        "price": 60,
+        "type": "checkbox_price",
+        "isRequired": false
+      },
+      {
+        "label": "Date souhaitée pour la réparation",
+        "type": "date",
+        "isRequired": true,
+        "minFuturDateRange": 1
+      },
+      { "label": "Code du robot", "type": "text", "isRequired": true },
+      { "label": "Nom de famille", "type": "text", "isRequired": true },
+      { "label": "Prénom", "type": "text", "isRequired": true },
+      { "label": "Adresse", "type": "text", "isRequired": true },
+      { "label": "Adresse e-mail", "type": "email", "isRequired": true },
+      { "label": "Numéro de téléphone", "type": "tel", "isRequired": true },
+      {
+        "label": "Accepter les conditions générales",
+        "type": "checkbox_term",
+        "isRequired": true
+      }
+    ]
+  }
+]
