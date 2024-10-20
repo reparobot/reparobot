@@ -1,29 +1,27 @@
-# Dependencies
-node_modules/
-node_modules
-.pnp/
+# dependencies
+*/node_modules
+/.pnp
 .pnp.js
 
-# Testing
-coverage/
+# testing
+/coverage
 
-# Production
-/build/
-dist/
+# production
+*/build
 
-# Misc
+# misc
 .DS_Store
-# .env
-# .env.local
-# .env.development.local
-# .env.test.local
-# .env.production.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-.idea/
+# env file
+.env
+
+.idea
 backend/logs/
-.cache/
-*.pack
